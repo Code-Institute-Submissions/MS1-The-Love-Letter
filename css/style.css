@@ -1,0 +1,13 @@
+
+/*----Logo styling*/
+
+
+.bg-color-name-tile {
+    background-color: #cc9778;
+}
+
+.bg-image {
+    background-image: url("../../images/pink-gb-concentrated-pixels.png");
+    background-repeat: no-repeat;
+    opacity: 100%;
+}
