@@ -1,13 +1,23 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 /*----Logo styling*/
 
 
-.bg-color-name-tile {
-    background-color: #cc9778;
+.logo-image {
+    background-image: url("../../images/logo-pixels.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    
 }
 
-.bg-image {
-    background-image: url("../../images/pink-gb-concentrated-pixels.png");
-    background-repeat: no-repeat;
-    opacity: 100%;
+hr.pink-hr {
+    border: 1px solid #E37489;
+    margin: 0;
 }
