@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-/*----Logo styling*/
+/*--------------------------------------------Logo styling*/
 
 
 .logo-image {
@@ -14,10 +14,69 @@
     -webkit-transition: all .5s ease-in-out;
     padding-left: 30px!important;
     padding-right: 30px!important;
+    margin-top: 15px;
     
 }
 
 hr.pink-hr {
-    border: 1px solid #E37489;
+    border: 3px dashed #E37489;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+
+/*--------------------------------------------Navbar styling*/
+
+.nav-color {
+    background-color: #E37489;
+    display: block; 
+}
+
+.list-inline-item:not(:last-child) {
     margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 50px;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color:#fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300px;
+    letter-spacing: 2px;
 }
