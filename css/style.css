@@ -29,7 +29,7 @@ hr.pink-hr1 {
 hr.pink-hr2 {
     border: 2px solid #E37489;
     margin-top: 0;
-    margin-bottom: 7px;  
+    margin-bottom: 0;  
 }
 
 hr.pink-hr-dash1 {
@@ -42,6 +42,12 @@ hr.pink-hr-dash2 {
     border: 3px dashed #E37489;
     margin-top: 3px;
     margin-bottom: 7px;
+}
+
+hr.pink-hr-dash3 {
+    border: 3px dashed #E37489;
+    margin-top: 7px;
+    margin-bottom: 3px;
 }
 
 
@@ -64,6 +70,33 @@ hr.pink-hr-dash2 {
 }
 
 
+/*--------------------------------------------Callout styling*/
+
+.callout-image {
+    background: url("../../images/Office-callout.png") no-repeat bottom right;
+    height: 645px; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 100px;
+}
+
+
+@media (max-width: 414px) {
+    .callout-image{
+        background-image: url("../../images/Pink-gb-concentrated-pixels.png");
+    }
+}
+
+    
 
 
 
