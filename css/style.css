@@ -1,6 +1,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
+/*--------------------------------------------Background image*/
+
+.bg-image {
+    background-image: url("../../images/dalmation-bg-large.png");
+    
+}
+
+
 /*--------------------------------------------Logo styling*/
 
 
@@ -98,58 +106,52 @@ hr.pink-hr-dash3 {
 
     
 
+/*--------------------------------------------About Us styling*/
 
-
-.nav-color {
-    background-color: #E37489;
-    display: block; 
+.about-container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    font-family: "Roboto", sans-serif !important;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
+/*--------------------------------------------Prints styling*/
 
-.menucontainer {
-    font-size: 0;
-}
-
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-
-.menuitem {
-    height: 50px;
-    text-align: center;
-    padding: 0px;
+.prints-1 {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     
 }
 
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color:#fff;
-    height: 120px;
+.print-card {
+    justify-content: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: #fff;
 }
 
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
+.print-card-2 {
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: #fff;
 }
 
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300px;
-    letter-spacing: 2px;
+.print-bg {
+    background-color: #FFACBC;
+    border: #E37489 solid 20px;
+    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.print-text {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
 }
