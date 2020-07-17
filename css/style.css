@@ -98,7 +98,7 @@ hr.pink-hr-dash3 {
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
     .callout-image{
         background-image: url("../../images/Pink-gb-concentrated-pixels.png");
     }
@@ -118,7 +118,27 @@ hr.pink-hr-dash3 {
 
 /*--------------------------------------------Prints styling*/
 
-.prints-1 {
+
+.print-bg {
+    background-color: #FFACBC;
+    border: #E37489 solid 20px;
+    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: #fff;
+}
+
+.card {
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+
+
+/*.prints-1 {
     display: flex;
     padding-top: 20px;
     padding-left: 100px;
@@ -141,17 +161,36 @@ hr.pink-hr-dash3 {
     color: #fff;
 }
 
-.print-bg {
-    background-color: #FFACBC;
-    border: #E37489 solid 20px;
-    margin: 0;
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
+
 
 .print-text {
     color: #fff;
     font-weight: 500;
     letter-spacing: 1px;
     padding-bottom: 40px;
+}
+
+.print-price {
+    font-size: medium;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .prints-1 {
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .prints-1 {
+        display: block;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+}
+
+.row {
+    justify-content: center;
 }
