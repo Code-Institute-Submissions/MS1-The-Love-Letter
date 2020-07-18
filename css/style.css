@@ -1,10 +1,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
 /*--------------------------------------------Background image*/
 
 .bg-image {
     background-image: url("../../images/dalmation-bg-large.png");
+    padding-left: 0;
+    padding-right: 0;
     
 }
 
@@ -77,6 +88,10 @@ hr.pink-hr-dash3 {
     
 }
 
+.navbar-toggler {
+    border: none;
+}
+
 
 /*--------------------------------------------Callout styling*/
 
@@ -118,7 +133,6 @@ hr.pink-hr-dash3 {
 
 /*--------------------------------------------Prints styling*/
 
-
 .print-bg {
     background-color: #FFACBC;
     border: #E37489 solid 20px;
@@ -129,11 +143,34 @@ hr.pink-hr-dash3 {
 }
 
 .card {
-    margin-left: 50px;
+    position: relative;
     margin-top: 40px;
     background-color: transparent;
     border: none;
     color: #fff;
+    flex-direction: column;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+.print-text {
+    padding-bottom: 3rem;
+}
+
+/*.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+
+
+
+.card-wrapper {
+    flex-wrap: wrap;
+    display: flex;
 }
 
 
