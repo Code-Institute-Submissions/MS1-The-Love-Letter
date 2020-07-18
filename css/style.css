@@ -134,7 +134,7 @@ hr.pink-hr-dash3 {
 /*--------------------------------------------Prints styling*/
 
 .print-bg {
-    background-color: #FFACBC;
+    background-color: #FBCED6;
     border: #E37489 solid 20px;
     margin: 0;
     padding-top: 75px;
@@ -145,13 +145,13 @@ hr.pink-hr-dash3 {
 .card {
     position: relative;
     margin-top: 40px;
-    background-color: transparent;
+    background-color: #E37489;
     border: none;
     color: #fff;
     flex-direction: column;
 }
 
-.row {
+.print-row {
     justify-content: space-evenly;
 }
 
@@ -159,75 +159,38 @@ hr.pink-hr-dash3 {
     padding-bottom: 3rem;
 }
 
-/*.container {
-    display: flex;
-    justify-content: center;
+/*--------------------------------------------Form styling*/
+
+.form-container {
+    padding-top: 5rem;
+}
+
+.form-row {
+    margin: 2rem;
+}
+
+.form-bg {
+    background-color: #FBCED6;
+    border: 2px solid #E37489;
+    border-radius: 1rem;
+}
+
+.form-group {
+    padding-top: 1rem;
+}
+
+.btn {
+    background-color: #E37489;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+/*--------------------------------------------Footer styling*/
+
+footer {
+    background-color: #FBCED6;
+}
+
+.footer-container {
     flex-direction: row;
-  }
-
-
-
-
-.card-wrapper {
-    flex-wrap: wrap;
-    display: flex;
-}
-
-
-
-/*.prints-1 {
-    display: flex;
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    
-}
-
-.print-card {
-    justify-content: center;
-    padding-left: 75px;
-    padding-right: 75px;
-    color: #fff;
-}
-
-.print-card-2 {
-    justify-content: center;
-    padding-top: 50px;
-    padding-left: 75px;
-    padding-right: 75px;
-    color: #fff;
-}
-
-
-
-.print-text {
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 1px;
-    padding-bottom: 40px;
-}
-
-.print-price {
-    font-size: medium;
-    font-weight: 700;
-}
-
-@media screen and (max-width: 600px) {
-    .prints-1 {
-        display: block;
-        
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .prints-1 {
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        
-    }
-}
-
-.row {
-    justify-content: center;
 }

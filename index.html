@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <title>The Love Letter</title>
 </head>
@@ -79,12 +80,12 @@
 
     <!--PRINTS-->
     <section>
-      <div class="container col-12 print-bg text-center">
+      <div class="container col-12 print-bg text-center" id="prints">
         <div class="print-text">
           <h4 class="text-uppercase">Prints</h4>
           <p>Whether you need to brighten up a room or add a touch or humour to your living room walls, we've got prints for everyone!</p>
         </div>
-        <div class="row mx-auto">
+        <div class="row print-row mx-auto">
           <div class="card" style="width: 18rem;">
             <img src="../../images/Girl-A8.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -113,7 +114,7 @@
           </div>
         </div>
 
-        <div class="row mx-auto">
+        <div class="row print-row mx-auto">
           <div class="card" style="width: 18rem;">
             <img src="../../images/Never-A8.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -142,7 +143,7 @@
           </div>
         </div>
 
-        <div class="row mx-auto">
+        <div class="row print-row mx-auto">
           <div class="card" style="width: 18rem;">
             <img src="../../images/Punk-Rock-A8.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -174,6 +175,59 @@
 
     </section>
     <!--/.PRINT-->
+
+    <!--CONTACT US-->
+    <div class="row form-row">
+      <div class="col-12"></div>
+        <div class="container form-container">
+          <div class="contact-text text-center">
+            <h4 class="text-uppercase">Contact Us</h4>
+            <p>Need help? Contact us using the form below!</p>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Name</label>
+              <input type="password" class="form-control form-bg" id="exampleInputname1">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control form-bg" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control form-bg" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+            <small id="emailHelp" class="form-text text-muted text text-center">You will be contacted within 48 hours by our customer service team</small>
+          </form>
+        </div>
+      </div>
+    </div> 
+    <!--/.CONTACT US -->
+
+    <!--FOOTER-->
+    <footer>
+      <div class="container footer-container footer-bg col-6">
+        <div class="row footer-row ">
+          <div class="inline-block col-4">
+            <p class="footer-title text-uppercase">Contact</p>
+            <p>Tel: 0207 856 9453 <br> inquiry@theloveletter.com</p>
+          </div>
+
+          <div class="inline-block col-4">
+            <p class="footer-title text-uppercase">About</p>
+            <p>Who are we?</p>
+          </div>
+
+          <div class="inline-block col-4">
+            <p class="footer-title text-uppercase">Help</p>
+            <p>Delivery & Returns</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/.FOOTER-->
   
    
 
