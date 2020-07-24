@@ -133,6 +133,10 @@ hr.pink-hr-dash3 {
 
 /*--------------------------------------------Prints styling*/
 
+.card-body {
+    background-color: #E37489; 
+}
+
 .print-bg {
     background-color: #FBCED6;
     border: #E37489 solid 20px;
@@ -145,7 +149,6 @@ hr.pink-hr-dash3 {
 .card {
     position: relative;
     margin-top: 40px;
-    background-color: #E37489;
     border: none;
     color: #fff;
     flex-direction: column;
@@ -185,6 +188,10 @@ hr.pink-hr-dash3 {
     border-radius: 1rem;
 }
 
+.form-group {
+    font-weight: 500;
+}
+
 /*--------------------------------------------Footer styling*/
 
 footer {
@@ -194,3 +201,52 @@ footer {
 .footer-container {
     flex-direction: row;
 }
+
+.footer-styling {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8c6152;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.help-footer {
+    padding-left: 5rem;
+}
+
+.list-inline-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: right;
+}
+
+.social-section {
+    align-items: left;
+}
+
+footer h5 {
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .help-footer{
+        padding-left: 15px;
+    }
+    .social {
+        padding-bottom: 1rem;
+    }
+} 
