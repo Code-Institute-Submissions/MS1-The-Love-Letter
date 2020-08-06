@@ -13,14 +13,19 @@ html {
 /*--------------------------------------------Background image*/
 
 .bg-image {
-    background-image: url("../../images/dalmation-bg-large.png");
+    background-image: url("../../images/Fruit-bg.png");
     padding-left: 0;
     padding-right: 0;
     
 }
 
 
+
 /*--------------------------------------------Logo styling*/
+
+.logo-bg {
+    background-color: #f9b440;
+}
 
 
 .logo-image {
@@ -40,31 +45,31 @@ html {
 }
 
 hr.pink-hr1 {
-    border: 2px solid #E37489;
-    margin-top: 7px;
+    border: 2px solid #eb579b;
+    margin-top: 0px;
     margin-bottom: 0;  
 }
 
 hr.pink-hr2 {
-    border: 2px solid #E37489;
+    border: 2px solid #eb579b;
     margin-top: 0;
     margin-bottom: 0;  
 }
 
 hr.pink-hr-dash1 {
-    border: 3px dashed #E37489;
+    border: 3px dashed #eb579b;
     margin-top: 7px;
     margin-bottom: 0;
 }
 
 hr.pink-hr-dash2 {
-    border: 3px dashed #E37489;
+    border: 3px dashed #eb579b;
     margin-top: 3px;
     margin-bottom: 7px;
 }
 
 hr.pink-hr-dash3 {
-    border: 3px dashed #E37489;
+    border: 3px dashed #eb579b;
     margin-top: 7px;
     margin-bottom: 3px;
 }
@@ -73,7 +78,7 @@ hr.pink-hr-dash3 {
 /*--------------------------------------------Navbar styling*/
 
 .bg-pink {
-    background-color: #e37489 !important;
+    background-color: #74c3b3 !important;
     
 }
 
@@ -96,7 +101,7 @@ hr.pink-hr-dash3 {
 /*--------------------------------------------Callout styling*/
 
 .callout-image {
-    background: url("../../images/Office-callout.png") no-repeat bottom right;
+    background: url("../../images/Callout image.jpg") no-repeat bottom right;
     height: 645px; 
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -131,15 +136,24 @@ hr.pink-hr-dash3 {
     font-weight: 500;
 }
 
+.about-container-2 {
+    padding: 30px;
+}
+
+.about-white-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20rem;
+}
+
 /*--------------------------------------------Prints styling*/
 
 .card-body {
-    background-color: #E37489; 
+    background-color: #a1d1c7; 
 }
 
 .print-bg {
-    background-color: #FBCED6;
-    border: #E37489 solid 20px;
+    background-color: #a1d1c7;
+    border: #eb579b solid 20px;
     margin: 0;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -169,7 +183,7 @@ hr.pink-hr-dash3 {
 }
 
 .form-row {
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .form-bg {
@@ -192,10 +206,24 @@ hr.pink-hr-dash3 {
     font-weight: 500;
 }
 
+.form-white-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 7px 10px;
+}
+
+.contact-white-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    margin-left: 23rem;
+    margin-right: 23rem;
+}
+
 /*--------------------------------------------Footer styling*/
 
 footer {
-    background-color: #FBCED6;
+    background-color: #74c3b3;
+    color: #fff;
 }
 
 .footer-container {
@@ -217,7 +245,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background-color: #8c6152;
+    background-color: #e57fa8;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
