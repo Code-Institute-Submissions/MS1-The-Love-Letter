@@ -14,7 +14,7 @@ html {
 /*--------------------------------------------Background image*/
 
 .bg-image {
-    background-image: url("../../images/Fruit-bg.png");
+    background-image: url("../images/Fruit-bg.png");
     padding-left: 0;
     padding-right: 0;
     
@@ -30,7 +30,7 @@ html {
 
 
 .logo-image {
-    background-image: url("../../images/Logo white.png");
+    background-image: url("../images/Logo white.png");
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100px;
@@ -104,7 +104,7 @@ hr.pink-hr-dash2 {
 /*--------------------------------------------Callout styling*/
 
 .callout-image {
-    background: url("../../images/Callout image.jpg") no-repeat bottom right;
+    background: url("../images/Callout image.jpg") no-repeat bottom right;
     height: 645px; 
     -moz-background-size: cover;
     -o-background-size: cover;
