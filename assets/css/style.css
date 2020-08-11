@@ -1,5 +1,6 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Oswald:wght@500;600;700&display=swapdisplay=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Oswald:wght@500;600;700&family=Bowlby+One+SC&display=swap");
 
 
 *{
@@ -183,8 +184,31 @@ hr.pink-hr-dash2 {
     background-color: #cab9db;
     border: #896cae solid 10px;
     color: #fff;
-    display: flex;
-    font-family:'Oswald', sans-serif;;
+     
+}
+
+@media (max-width: 600px) {
+    .prints-callout{
+        background-image: url("../images/Print-callout-bg.jpg");
+    }
+}
+
+.callout-text-white {
+    display: inline-block;
+    justify-content: center;
+    font-family: 'Bowlby One SC', cursive;
+    margin-top: 7rem;
+    font-size: 50px;
+    text-shadow: 8px 8px #000;
+    text-transform: uppercase;
+    
+}
+
+.callout-price {
+    color: #fff !important;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 20px;
 }
 
 
@@ -210,6 +234,13 @@ hr.pink-hr-dash2 {
     background-color: rgba(229, 127, 168, 0.9);
     border-radius: 20rem;
     padding: 36px 70px 20px 70px;
+}
+
+@media (max-width: 600px) {
+    .about-bg {
+        border-radius: 9rem;
+        padding: 36px 50px 20px 50px;
+    }
 }
 
 /*--------------------------------------------Prints styling*/
