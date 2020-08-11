@@ -1,5 +1,6 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Oswald:wght@500;600;700&display=swapdisplay=swap");
+
 
 *{
     margin: 0;
@@ -28,8 +29,57 @@ html {
     background-color: #ebbacf;
 }
 
+.logo-wrapper{
+    height: 120px;
+    
+    border-top: #eb579b solid 5px;
+    border-bottom: #eb579b solid 5px;
+    justify-content: center;
+}
 
-.logo-image {
+.logo-text {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+@media (max-width: 600px) {
+    .logo-text {
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        padding-top: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .logo-divider {
+        height: 10px !important;
+        width: 10px !important;
+        
+    }
+}
+
+.logo-divider {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 9px;
+}
+
+
+.navbar-space{
+    height: 54px;
+}
+
+/*.logo-image {
     background-image: url("../images/Logo white.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +93,7 @@ html {
     max-width: 100%;
     height: auto;
     
-}
+}*/
 
 hr.pink-hr1 {
     border: 2px solid #eb579b;
@@ -123,9 +173,18 @@ hr.pink-hr-dash2 {
 
 @media (max-width: 600px) {
     .callout-image{
-        background-image: url("../../images/Oh-my-A8.jpg");
+        background-image: url("../images/Oh-my-A8.jpg");
     }
     
+}
+
+.prints-callout {
+    height: 32rem;
+    background-color: #cab9db;
+    border: #896cae solid 10px;
+    color: #fff;
+    display: flex;
+    font-family:'Oswald', sans-serif;;
 }
 
 
@@ -157,7 +216,7 @@ hr.pink-hr-dash2 {
 
 .card-body {
     background-color: #a1d1c7;
-    border: none; 
+    border: none !important; 
 }
 
 .print-bg {
@@ -175,7 +234,9 @@ hr.pink-hr-dash2 {
     border: none;
     color: #fff;
     flex-direction: column;
+    
 }
+
 
 .print-row {
     justify-content: space-evenly;
@@ -183,7 +244,12 @@ hr.pink-hr-dash2 {
 
 .print-text {
     padding-bottom: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
 
+.card {
+    width: 18rem;
 }
 
 /*--------------------------------------------Form styling*/
@@ -208,7 +274,6 @@ hr.pink-hr-dash2 {
 }
 
 .btn {
-    background-color: #e57fa8;
     color: #fff;
     border-radius: 1rem;
     font-weight: 500;
@@ -227,7 +292,8 @@ hr.pink-hr-dash2 {
 .contact-white-bg {
     background-color: rgba(229, 127, 168, 0.9);
     border-radius: 50px;
-    padding: 26px 10px 10px 10px;
+    padding: 26px;
+    
 }
 
 .text-muted {
@@ -273,6 +339,7 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    margin-top: 4px;
 }
 
 .help-footer {
@@ -304,4 +371,7 @@ footer p {
     .social {
         padding-bottom: 1rem;
     }
+    .divider {
+        border-left: none;
+      }
 } 
