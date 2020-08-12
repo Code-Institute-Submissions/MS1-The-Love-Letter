@@ -155,7 +155,7 @@ hr.pink-hr-dash2 {
 /*--------------------------------------------Callout styling*/
 
 .callout-image {
-    background: url("../images/Callout image.jpg") no-repeat bottom right;
+    background: url("../images/Callout image short.jpg") no-repeat bottom right;
     height: 645px; 
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -171,20 +171,37 @@ hr.pink-hr-dash2 {
     min-width: 100px;
 }
 
-
 @media (max-width: 600px) {
     .callout-image{
-        background-image: url("../images/Oh-my-A8.jpg");
+        
     }
     
 }
+
+
+.callout-container{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+}
+
+
 
 .prints-callout {
     height: 32rem;
     background-color: #cab9db;
     border: #896cae solid 10px;
     color: #fff;
+    
      
+}
+
+.callout-image {
+    display: block;
+    position: relative;
+    vertical-align: top;
+    
 }
 
 @media (max-width: 600px) {
@@ -197,10 +214,11 @@ hr.pink-hr-dash2 {
     display: inline-block;
     justify-content: center;
     font-family: 'Bowlby One SC', cursive;
-    margin-top: 7rem;
     font-size: 50px;
     text-shadow: 8px 8px #000;
     text-transform: uppercase;
+    height: 40.3rem;
+    padding-top: 9rem;
     
 }
 
@@ -209,10 +227,8 @@ hr.pink-hr-dash2 {
     font-family: "Roboto", sans-serif !important;
     font-weight: 600 !important;
     font-size: 20px;
+    text-shadow: none;
 }
-
-
-
     
 
 /*--------------------------------------------About Us styling*/
