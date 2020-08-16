@@ -16,7 +16,26 @@ When conducting research into potential customers, the points that came up most 
 - As a user, I want to know how the cost of products upfront do decided whether to buy. **Addressed in print section** 
 - As a user, I need the company to have social media to keep up with an new products or services. **Addressed in footer** 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Strategy
+To sell prints and a custom prints service using a user friendly one page design, with a clear layout that also stays true the the company branding. 
+
+### Scope 
+Providing customers with a a breif company background, then all products and services set out and well labeled so they can browse and find what they are looking for.
+
+### Structure 
+Fixed top navigation bar to get to desired sections of the site easily. Information given is short and easy to read. The function of each section of the site is labelled and  apparent to customer. 
+
+### Skeleton
+Wireframes created using figma:
+*link wireframe* 
+
+### Surface 
+As site branding is bright and busy, The text had to be simple and clean: 
+**Roboto**- For general information throughout
+**Oswald**- For the logo 
+**Bowlby One SC**- For the callout
+While the fruity background caught your eye, the print section had a plain background to ensure they stood out and were easy to read so branding did not overtake usability. 
+
 
 ## Features
 
@@ -35,11 +54,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- **HTML** - To write up base website
+- **CSS** - To style website to make it visually appealing
+- **[Bootstrap](https://getbootstrap.com/)** - For responsive design  
+- **[Figma](https://www.figma.com/files/recent)** - To create wireframe
 
 ## Testing
 
