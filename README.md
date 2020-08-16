@@ -30,11 +30,14 @@ Wireframes created using figma:
 *link wireframe* 
 
 ### Surface 
-As site branding is bright and busy, The text had to be simple and clean: 
-**Roboto**- For general information throughout
-**Oswald**- For the logo 
-**Bowlby One SC**- For the callout
 While the fruity background caught your eye, the print section had a plain background to ensure they stood out and were easy to read so branding did not overtake usability. 
+As site branding is bright and busy, The text had to be simple and clean: 
+
+**Roboto**- For general information throughout
+
+**Oswald**- For the logo 
+
+**Bowlby One SC**- For the callout
 
 
 ## Features
