@@ -228,7 +228,7 @@ html {
 }
 
 /*--------------------------------------------iPad Pro callout image sizing*/
-@media (max-width: 1024px){
+@media (max-width: 1199px){
     .callout-image {
         background: url("../images/Callout image small.jpg") no-repeat bottom right; 
         -moz-background-size: cover;
