@@ -145,7 +145,7 @@ html {
     background-image: none;
 }
 
-
+/*--------------------------------------------small screens*/
 @media (max-width: 450px){
     .prints-callout {
         background-image: url("../images/Print-callout-bg.jpg");   
@@ -176,8 +176,8 @@ html {
     text-shadow: none;
 }
 
-/*--------------------------------------------medium screens*/
-@media (min-width: 1026px) {
+/*--------------------------------------------large screens*/
+@media (min-width: 1200px) {
     .callout-image {
         background: url("../images/Callout image short.jpg") no-repeat bottom right;
         -moz-background-size: cover;
@@ -195,38 +195,34 @@ html {
         display: inline-block;
         justify-content: center;
         font-family: 'Bowlby One SC', cursive;
-        font-size: 8rem;
+        font-size: 3rem;
         text-shadow: 12px 12px #000;
         text-transform: uppercase;
-        height: 35rem;
-        padding-top: 5.5rem;
+        height: 12rem;
+        padding-top: 8rem;
     }
 
     
     .prints-callout {
-        height: 80rem;
+        height: 37rem;
         background-color: #cab9db;
         border: #896cae solid 10px;
     }
 
 
     .callout-image-box{
-        height: 80rem;
+        height: 37rem;
         width: 100%;
     }
 
     .callout-container {
-        height: 80rem;
+        height: 37rem;
     }
 
     .callout-row{
-        height: 80rem;
+        height: 37rem;
     }
 
-
-    .callout-text-white {
-        padding-top: 20rem;
-    }
     
 }
 
