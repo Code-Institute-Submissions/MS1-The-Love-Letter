@@ -167,7 +167,7 @@ body {
 
 
 /*--------------------------------------------iPad callout image sizing*/
-@media (max-width: 900px) {
+@media (min-width: 768px) {
     .callout-image {
         background: url("../images/Callout image small.jpg") no-repeat bottom right; 
         -moz-background-size: cover;
@@ -211,14 +211,14 @@ body {
     }
 
     .callout-row{
-        height: 600px;
+        height: 37rem;
     }
 }
 
 
 
 /*--------------------------------------------iPad Pro callout image sizing*/
-@media (max-width: 1199px){
+@media (min-width: 900px){
     .callout-image {
         background: url("../images/Callout image small.jpg") no-repeat bottom right; 
         -moz-background-size: cover;
@@ -266,8 +266,7 @@ body {
 }
 
 
-
-/*--------------------------------------------Medium screens*/
+/*--------------------------------------------Extra large screens (Macbook)*/
 @media (min-width: 1200px) {
     .callout-image {
         background: url("../images/Callout image short.jpg") no-repeat bottom right;
@@ -316,6 +315,8 @@ body {
     }  
 }
 
+
+/*--------------------------------------------Extra large screens (iMac)*/
 @media (min-width: 1300px) {
     .callout-image {
         background: url("../images/Callout image short.jpg") no-repeat bottom right;
@@ -339,7 +340,7 @@ body {
         text-shadow: 12px 12px #000;
         text-transform: uppercase;
         height: 12rem;
-        padding-top: 8rem;
+        padding-top: 11rem;
     }
 
     
@@ -362,102 +363,6 @@ body {
     .callout-row{
         height: 43rem;
     } 
-}
-
-
-
-/*--------------------------------------------large screens*/
-@media (min-width: 1900px) {
-    .callout-image {
-        background: url("../images/Callout image short.jpg") no-repeat bottom right;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .callout-text-white {
-        border: #896cae solid 10px;
-        color: #fff;
-        display: inline-block;
-        justify-content: center;
-        font-family: 'Bowlby One SC', cursive;
-        font-size: 5rem;
-        text-shadow: 12px 12px #000;
-        text-transform: uppercase;
-        height: 12rem;
-        padding-top: 14rem;
-    }
-
-    .prints-callout {
-        height: 59rem;
-        background-color: #cab9db;
-        border: #896cae solid 10px;
-    }
-
-
-    .callout-image-box{
-        height: 59rem;
-        width: 100%;
-    }
-
-    .callout-container {
-        height: 59rem;
-    }
-
-    .callout-row{
-        height: 59rem;
-    }
-}
-
-/*--------------------------------------------x-large screens*/
-@media (min-width: 2300px) {
-    .callout-image {
-        background: url("../images/Callout image short.jpg") no-repeat bottom right;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .callout-text-white {
-        border: #896cae solid 10px;
-        color: #fff;
-        display: inline-block;
-        justify-content: center;
-        font-family: 'Bowlby One SC', cursive;
-        font-size: 5rem;
-        text-shadow: 12px 12px #000;
-        text-transform: uppercase;
-        height: 12rem;
-        padding-top: 20rem;
-    }
-
-    .prints-callout {
-        height: 77rem;
-        background-color: #cab9db;
-        border: #896cae solid 10px;
-    }
-
-
-    .callout-image-box{
-        height: 77rem;
-        width: 100%;
-    }
-
-    .callout-container {
-        height: 77rem;
-    }
-
-    .callout-row{
-        height: 77rem;
-    }
 }
 
 
