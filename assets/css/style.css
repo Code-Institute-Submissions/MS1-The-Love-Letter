@@ -119,12 +119,15 @@ body {
     color: #fff;
 }
 
-.callout-print-link a:hover 
-{
-     color:#fff; 
-     text-decoration:none; 
-     cursor:pointer;  
+
+.callout-print-link,
+.callout-print-link:hover, 
+.callout-print-link:active,
+.callout-print-link:visited, 
+.callout-print-link:focus {
+    text-decoration:none;
 }
+
 
 .prints-callout {
     height: 32rem;
@@ -218,7 +221,7 @@ body {
 
 
 /*--------------------------------------------iPad Pro callout image sizing*/
-@media (min-width: 1085px){
+@media (min-width: 900px){
     .callout-image {
         background: url("../images/Callout image small.jpg") no-repeat bottom right; 
         -moz-background-size: cover;
