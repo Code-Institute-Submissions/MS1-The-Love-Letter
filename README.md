@@ -27,7 +27,7 @@ Fixed top navigation bar to get to desired sections of the site easily. Informat
 
 ### Skeleton
 Wireframes created using figma:
-- **Here**(https://getbootstrap.com/)
+- [**Here**](https://getbootstrap.com/)
  
 
 ### Surface 
@@ -62,7 +62,9 @@ A fixed top navbar ensures customers can naviage to all sections regardless of w
 
 ## Testing
 
-All links within the site function correctly and take you to the appropiate section. The submit button takes you to the top of the page as there is no 
+All links within the site function correctly and take you to the appropiate section. The submit button takes you to the top of the page as there is no 'completed' event. Social media links open to the home page of each social site. 
+
+The site was tested across multiple screens sizes both personally and via inspect. Peronally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3inch Windows laptops. All screen sizes worked as desired bar the 17.5inch to be adressed in **Bugs**.
 All links will function, but the social media links will open the main page of that particular platform. The "Send us your details" button will return to the home section. Custom CCS code is written for every button comfort design.
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5). When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen. This will disappear on smaller screens the box is used for direct to call actions and social media. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
