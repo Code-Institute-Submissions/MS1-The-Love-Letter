@@ -3,16 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Oswald:wght@500;600;700&family=Bowlby+One+SC&display=swap");
 
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
 html {
-    margin: 0;
-    padding: 0;
-    
+    overflow-x: hidden;
+    width: 100%;
 }
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 /*--------------------------------------------Background image*/
 
 .bg-image {
@@ -23,81 +24,7 @@ html {
 }
 
 
-
-/*--------------------------------------------Logo styling*/
-
-.logo-bg {
-    background-color: #ebbacf;
-}
-
-.logo-wrapper{
-    height: 120px;
-    
-    border-top: #eb579b solid 5px;
-    border-bottom: #eb579b solid 5px;
-    justify-content: center;
-}
-
-
-.logo-text {
-    color: #fff;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    padding-top: 1.5rem;
-}
-
-
-@media (min-width: 600px){
-    .logo-text {
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
-        font-size: 60px;
-        font-weight: 700;
-        padding-top: 7px;
-    }   
-
-}
-
-@media (max-width: 320px){
-    .logo-text {
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
-        font-size: 30px;
-        font-weight: 700;
-        padding-top: 30px;
-    }   
-
-}
-
-
-.logo-circle-divider {
-    background-color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 9px;
-    height: 10px;
-    width: 10px;
-}
-
-
-@media (min-width: 600px){
-    .logo-circle-divider {
-        height: 15px;
-        width: 15px;
-        
-    }
-}
-
-
-.navbar-space-filler{
-    height: 54px;
-}
-
-
 /*--------------------------------------------Navbar styling*/
-
 .bg-pink {
     background-color: #74c3b3 !important;
     
@@ -119,6 +46,67 @@ html {
     border: none;
     color: #fff;
 }
+
+
+
+/*--------------------------------------------Logo styling*/
+.logo-wrapper{
+    height: 120px;
+    border-top: #eb579b solid 5px;
+    border-bottom: #eb579b solid 5px;
+    justify-content: center;
+    background-color: #ebbacf;
+}
+
+
+.logo-text {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+
+.logo-circle-divider {
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 9px;
+    height: 10px;
+    width: 10px;
+}
+   
+
+@media (max-width: 320px){
+    .logo-text {
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 30px;
+    }   
+
+}
+
+
+@media (min-width: 600px){
+    .logo-circle-divider {
+        height: 15px;
+        width: 15px;
+        
+    }
+
+    .logo-text {
+        font-size: 60px;
+        font-weight: 700;
+        padding-top: 7px;
+    }   
+}
+
+
+.navbar-space-filler{
+    height: 54px;
+}
+
 
 
 /*--------------------------------------------CALLOUT STYLING*/
@@ -177,7 +165,57 @@ html {
     text-shadow: none;
 }
 
+
 /*--------------------------------------------large screens*/
+@media (min-width: 2000px) {
+    .callout-image {
+        background: url("../images/Callout image short.jpg") no-repeat bottom right;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .callout-text-white {
+        border: #896cae solid 10px;
+        color: #fff;
+        display: inline-block;
+        justify-content: center;
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 1rem;
+        text-shadow: 12px 12px #000;
+        text-transform: uppercase;
+        height: 12rem;
+        padding-top: 8rem;
+    }
+
+    
+    .prints-callout {
+        height: 45rem;
+        background-color: #cab9db;
+        border: #896cae solid 10px;
+    }
+
+
+    .callout-image-box{
+        height: 45rem;
+        width: 100%;
+    }
+
+    .callout-container {
+        height: 45rem;
+    }
+
+    .callout-row{
+        height: 45rem;
+    }
+}
+
+
+/*--------------------------------------------Medium screens*/
 @media (min-width: 1200px) {
     .callout-image {
         background: url("../images/Callout image short.jpg") no-repeat bottom right;
