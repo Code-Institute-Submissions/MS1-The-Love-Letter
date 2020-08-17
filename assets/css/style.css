@@ -167,7 +167,7 @@ body {
 
 
 /*--------------------------------------------iPad callout image sizing*/
-@media (min-width: 720px) {
+@media (max-width: 900px) {
     .callout-image {
         background: url("../images/Callout image small.jpg") no-repeat bottom right; 
         -moz-background-size: cover;
@@ -313,10 +313,57 @@ body {
 
     .callout-row{
         height: 37rem;
+    }  
+}
+
+@media (min-width: 1300px) {
+    .callout-image {
+        background: url("../images/Callout image short.jpg") no-repeat bottom right;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .callout-text-white {
+        border: #896cae solid 10px;
+        color: #fff;
+        display: inline-block;
+        justify-content: center;
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 3rem;
+        text-shadow: 12px 12px #000;
+        text-transform: uppercase;
+        height: 12rem;
+        padding-top: 8rem;
     }
 
     
+    .prints-callout {
+        height: 43rem;
+        background-color: #cab9db;
+        border: #896cae solid 10px;
+    }
+
+
+    .callout-image-box{
+        height: 43rem;
+        width: 100%;
+    }
+
+    .callout-container {
+        height: 43rem;
+    }
+
+    .callout-row{
+        height: 43rem;
+    } 
 }
+
 
 
 /*--------------------------------------------large screens*/
@@ -367,7 +414,7 @@ body {
 }
 
 /*--------------------------------------------x-large screens*/
-@media (min-width: 1920px) {
+@media (min-width: 2300px) {
     .callout-image {
         background: url("../images/Callout image short.jpg") no-repeat bottom right;
         -moz-background-size: cover;
