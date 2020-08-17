@@ -48,7 +48,6 @@ body {
 }
 
 
-
 /*--------------------------------------------Logo styling*/
 .logo-wrapper{
     height: 120px;
@@ -66,6 +65,7 @@ body {
     font-weight: 600;
     padding-top: 1.5rem;
 }
+
 
 .logo-circle-divider {
     background-color: #fff;
@@ -166,153 +166,6 @@ body {
 }
 
 
-/*--------------------------------------------large screens*/
-@media (min-width: 2000px) {
-    .callout-image {
-        background: url("../images/Callout image short.jpg") no-repeat bottom right;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .callout-text-white {
-        border: #896cae solid 10px;
-        color: #fff;
-        display: inline-block;
-        justify-content: center;
-        font-family: 'Bowlby One SC', cursive;
-        font-size: 1rem;
-        text-shadow: 12px 12px #000;
-        text-transform: uppercase;
-        height: 12rem;
-        padding-top: 8rem;
-    }
-
-    
-    .prints-callout {
-        height: 45rem;
-        background-color: #cab9db;
-        border: #896cae solid 10px;
-    }
-
-
-    .callout-image-box{
-        height: 45rem;
-        width: 100%;
-    }
-
-    .callout-container {
-        height: 45rem;
-    }
-
-    .callout-row{
-        height: 45rem;
-    }
-}
-
-
-/*--------------------------------------------Medium screens*/
-@media (min-width: 1200px) {
-    .callout-image {
-        background: url("../images/Callout image short.jpg") no-repeat bottom right;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .callout-text-white {
-        border: #896cae solid 10px;
-        color: #fff;
-        display: inline-block;
-        justify-content: center;
-        font-family: 'Bowlby One SC', cursive;
-        font-size: 3rem;
-        text-shadow: 12px 12px #000;
-        text-transform: uppercase;
-        height: 12rem;
-        padding-top: 8rem;
-    }
-
-    
-    .prints-callout {
-        height: 37rem;
-        background-color: #cab9db;
-        border: #896cae solid 10px;
-    }
-
-
-    .callout-image-box{
-        height: 37rem;
-        width: 100%;
-    }
-
-    .callout-container {
-        height: 37rem;
-    }
-
-    .callout-row{
-        height: 37rem;
-    }
-
-    
-}
-
-/*--------------------------------------------iPad Pro callout image sizing*/
-@media (max-width: 1199px){
-    .callout-image {
-        background: url("../images/Callout image small.jpg") no-repeat bottom right; 
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-    
-
-    .callout-row{
-        height: 800px;
-    }
-
-    
-    .prints-callout {
-        height: 50rem;
-        background-color: #cab9db;
-        border: #896cae solid 10px;
-        
-    }
-
-
-    .callout-image-box{
-        height: 50rem;
-        width: 100%;
-    }
-
-    .callout-container {
-        height: 50rem;
-    }
-
-    .callout-row{
-        height: 50rem;
-    }
-
-
-    .callout-text-white {
-        padding-top: 16rem;
-    }
-
-}
-
 /*--------------------------------------------iPad callout image sizing*/
 @media (max-width: 900px) {
     .callout-image {
@@ -363,6 +216,155 @@ body {
 }
 
 
+
+/*--------------------------------------------iPad Pro callout image sizing*/
+@media (max-width: 1199px){
+    .callout-image {
+        background: url("../images/Callout image small.jpg") no-repeat bottom right; 
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+
+    .callout-row{
+        height: 800px;
+    }
+
+    
+    .prints-callout {
+        height: 50rem;
+        background-color: #cab9db;
+        border: #896cae solid 10px;
+        
+    }
+
+
+    .callout-image-box{
+        height: 50rem;
+        width: 100%;
+    }
+
+    .callout-container {
+        height: 50rem;
+    }
+
+    .callout-row{
+        height: 50rem;
+    }
+
+
+    .callout-text-white {
+        padding-top: 16rem;
+    }
+
+}
+
+
+
+/*--------------------------------------------Medium screens*/
+@media (min-width: 1200px) {
+    .callout-image {
+        background: url("../images/Callout image short.jpg") no-repeat bottom right;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .callout-text-white {
+        border: #896cae solid 10px;
+        color: #fff;
+        display: inline-block;
+        justify-content: center;
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 3rem;
+        text-shadow: 12px 12px #000;
+        text-transform: uppercase;
+        height: 12rem;
+        padding-top: 8rem;
+    }
+
+    
+    .prints-callout {
+        height: 37rem;
+        background-color: #cab9db;
+        border: #896cae solid 10px;
+    }
+
+
+    .callout-image-box{
+        height: 37rem;
+        width: 100%;
+    }
+
+    .callout-container {
+        height: 37rem;
+    }
+
+    .callout-row{
+        height: 37rem;
+    }
+
+    
+}
+
+
+/*--------------------------------------------large screens*/
+@media (min-width: 1600px) {
+    .callout-image {
+        background: url("../images/Callout image short.jpg") no-repeat bottom right;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .callout-text-white {
+        border: #896cae solid 10px;
+        color: #fff;
+        display: inline-block;
+        justify-content: center;
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 5rem;
+        text-shadow: 12px 12px #000;
+        text-transform: uppercase;
+        height: 12rem;
+        padding-top: 14rem;
+    }
+
+    .prints-callout {
+        height: 59rem;
+        background-color: #cab9db;
+        border: #896cae solid 10px;
+    }
+
+
+    .callout-image-box{
+        height: 59rem;
+        width: 100%;
+    }
+
+    .callout-container {
+        height: 59rem;
+    }
+
+    .callout-row{
+        height: 59rem;
+    }
+}
 
 /*--------------------------------------------About Us styling*/
 
