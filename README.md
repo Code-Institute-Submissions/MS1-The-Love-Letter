@@ -27,7 +27,8 @@ Fixed top navigation bar to get to desired sections of the site easily. Informat
 
 ### Skeleton
 Wireframes created using figma:
-*link wireframe* 
+- **Here**(https://getbootstrap.com/)
+ 
 
 ### Surface 
 While the fruity background caught your eye, the print section had a plain background to ensure they stood out and were easy to read so branding did not overtake usability. 
@@ -42,15 +43,12 @@ As site branding is bright and busy, The text had to be simple and clean:
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+A fixed top navbar ensures customers can naviage to all sections regardless of which one they are currently in. The callout is linked to the print section to go straight to the products advertised. A one page site with various sections reduces loading times and allows for a speedier naviagation, which in turn gives the customer a better site experience. 
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Newsletter sign up - Users can keep up to date on any changes to service, new print additions and discount codes 
+- Login - To allow returning customers to purchase through their own account with saved information to streamline the process and cut down on time 
 
 ### Features Left to Implement
 - Another feature idea
@@ -63,6 +61,16 @@ In addition, you may also use this section to discuss plans for additional featu
 - **[Figma](https://www.figma.com/files/recent)** - To create wireframe
 
 ## Testing
+
+All links within the site function correctly and take you to the appropiate section. The submit button takes you to the top of the page as there is no 
+All links will function, but the social media links will open the main page of that particular platform. The "Send us your details" button will return to the home section. Custom CCS code is written for every button comfort design.
+
+This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5). When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen. This will disappear on smaller screens the box is used for direct to call actions and social media. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
+
+The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards. The footer will place the text beneath each other to make it better readable for smaller screens.
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -84,15 +92,9 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The Love Letter is hosted on GitHub pages, deployed from the master branch. The deployed site will update automatically upon new commits to the master branch. For correct deployment on GitHub pages, the landing page must be named index.html.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+To run locally, clone this repository directly into your chosen editor by pasting the link into your terminal. To remove from this GitHub repository, type ```git remote rm origin``` into the terminal.
 
 ## Credits
 
@@ -100,8 +102,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+**Callout**
+
+Images bought from [Almay.com](https://www.alamy.com/) with full license to be used in project.
+
+**Prints**
+
+Components of some prints obtained from [Freepik.com](https://www.freepik.com/) and [Flaticon](https://www.flaticon.com/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my sister's caligraphy [instagram page](https://www.instagram.com/_theloveletter/). I have her permission to use the name.  
