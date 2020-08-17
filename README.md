@@ -27,7 +27,7 @@ Fixed top navigation bar to get to desired sections of the site easily. Informat
 
 ### Skeleton
 Wireframes created using figma:
-- [**Here**](https://getbootstrap.com/)
+- [**The Love Letter wireframe**](https://getbootstrap.com/)
  
 
 ### Surface 
@@ -69,32 +69,21 @@ The site was tested across multiple screens sizes both personally and via inspec
 In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes.
 In both cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subjec tot change between screen sizes and does so at the stated points. The navagtion bar also collapses at moblie and tablet veiw to accomodate the size change. 
 
-All links will function, but the social media links will open the main page of that particular platform. The "Send us your details" button will return to the home section. Custom CCS code is written for every button comfort design.
-
-This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5). When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen. This will disappear on smaller screens the box is used for direct to call actions and social media. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
-
-The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards. The footer will place the text beneath each other to make it better readable for smaller screens.
+The in moblie view footer will text appear one beneath the other to fit the space available while remaining readable.
 
 
+## Bugs
 
+**Cards**
+A faint white border appears sporadically around the cards both in the physical tests and via inspection, although all borders have been removed this problem persists. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+**Callout image**
+The callout image on the 17.5" Windows laptop screen is cut off at the top. If the image shows as desired on an iMac, it is cut off on the PC and vice versa despite using a media query to target each screen. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+**Functionality test sites**
+[CSS Validator](https://jigsaw.w3.org/css-validator/) - To check the markup validity of CSS web documents.
+[HTML Validator](https://validator.w3.org/) - To check the markup validity of HTML web documents.
+[Gtmetrix](https://gtmetrix.com/) - To test site speed 
 
 ## Deployment
 
