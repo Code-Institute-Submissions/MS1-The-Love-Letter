@@ -64,7 +64,7 @@ A fixed top navbar ensures customers can naviage to all sections regardless of w
 
 All links within the site function correctly and take you to the appropiate section. The submit button takes you to the top of the page as there is no 'completed' event. Social media links open to the home page of each social site. 
 
-The site was tested across multiple screens sizes both personally and via inspect. Peronally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3inch Windows laptops. All screen sizes worked as desired bar the 17.5inch to be adressed in **Bugs**.
+The site was tested across multiple screens sizes both personally and via inspect. Peronally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3inch Windows laptops and all screen sizes worked as desired
 
 In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes.
 In both cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subjec tot change between screen sizes and does so at the stated points. The navagtion bar also collapses at moblie and tablet veiw to accomodate the size change. 
@@ -76,9 +76,6 @@ The in moblie view footer will text appear one beneath the other to fit the spac
 
 **Cards**
 A faint white border appears sporadically around the cards both in the physical tests and via inspection, although all borders have been removed this problem persists. 
-
-**Callout image**
-The callout image on the 17.5" Windows laptop screen is cut off at the top. If the image shows as desired on an iMac, it is cut off on the PC and vice versa despite using a media query to target each screen. 
 
 **Functionality test sites**
 [CSS Validator](https://jigsaw.w3.org/css-validator/) - To check the markup validity of CSS web documents.
