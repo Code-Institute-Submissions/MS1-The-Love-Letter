@@ -45,13 +45,12 @@ As site branding is bright and busy, The text had to be simple and clean:
 
 A fixed top navbar ensures customers can naviage to all sections regardless of which one they are currently in. The callout is linked to the print section to go straight to the products advertised. A one page site with various sections reduces loading times and allows for a speedier naviagation, which in turn gives the customer a better site experience. 
  
-### Existing Features
+ 
+### Features Left to Implement
 
 - Newsletter sign up - Users can keep up to date on any changes to service, new print additions and discount codes 
 - Login - To allow returning customers to purchase through their own account with saved information to streamline the process and cut down on time 
 
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
@@ -60,11 +59,16 @@ A fixed top navbar ensures customers can naviage to all sections regardless of w
 - **[Bootstrap](https://getbootstrap.com/)** - For responsive design  
 - **[Figma](https://www.figma.com/files/recent)** - To create wireframe
 
+
 ## Testing
 
 All links within the site function correctly and take you to the appropiate section. The submit button takes you to the top of the page as there is no 'completed' event. Social media links open to the home page of each social site. 
 
 The site was tested across multiple screens sizes both personally and via inspect. Peronally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3inch Windows laptops. All screen sizes worked as desired bar the 17.5inch to be adressed in **Bugs**.
+
+In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes.
+In both cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subjec tot change between screen sizes and does so at the stated points. The navagtion bar also collapses at moblie and tablet veiw to accomodate the size change. 
+
 All links will function, but the social media links will open the main page of that particular platform. The "Send us your details" button will return to the home section. Custom CCS code is written for every button comfort design.
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5). When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen. This will disappear on smaller screens the box is used for direct to call actions and social media. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
