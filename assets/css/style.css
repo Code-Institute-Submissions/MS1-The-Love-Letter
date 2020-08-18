@@ -237,7 +237,7 @@ body {
 
     
     .prints-callout {
-        height: 50rem;
+        height: 53rem;
         background-color: #cab9db;
         border: #896cae solid 10px;
         
@@ -245,16 +245,16 @@ body {
 
 
     .callout-image-box{
-        height: 50rem;
+        height: 53rem;
         width: 100%;
     }
 
     .callout-container {
-        height: 50rem;
+        height: 53rem;
     }
 
     .callout-row{
-        height: 50rem;
+        height: 53rem;
     }
 
 
@@ -316,7 +316,7 @@ body {
 
 
 /*--------------------------------------------Extra large screens (iMac)*/
-@media (min-width: 1300px) {
+@media (min-width: 1365px) {
     .callout-image {
         background: url("../images/Callout\ big\ optimised.jpg") no-repeat bottom right;
         -moz-background-size: cover;
@@ -342,23 +342,23 @@ body {
 
     
     .prints-callout {
-        height: 43rem;
+        height: 45rem;
         background-color: #cab9db;
         border: #896cae solid 10px;
     }
 
 
     .callout-image-box{
-        height: 43rem;
+        height: 45rem;
         width: 100%;
     }
 
     .callout-container {
-        height: 43rem;
+        height: 45rem;
     }
 
     .callout-row{
-        height: 43rem;
+        height: 45rem;
     } 
 }
 
