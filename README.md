@@ -35,7 +35,7 @@ Fixed top navigation bar to get to desired sections of the site easily. Informat
 
 ### Skeleton
 Wireframes created using figma:
-- [**The Love Letter wireframe**](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/mockups/The%20Love%20Letter%20wireframe.pdf) 
+- [**The Love Letter wireframe**](https://github.com/Darlyn-Lurikah/MS1-The-Love-Letter/blob/master/mockups/The%20Love%20Letter%20wireframe.pdf) 
 
 ### Surface 
 As the fruity background is eyecatching, the print section needed a plain background to ensure the products were clearly visible and branding did not overtake usability. 
