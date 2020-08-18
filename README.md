@@ -5,7 +5,7 @@ The love letter is a prints company selling both pre-made and custom wall prints
 
 ## Demo
 
-Click [here](https://darlyn-lurikah.github.io/MS1--User-Centric-Frontend-Dev--The-Love-Letter/) for a live demo version
+Click [here](https://darlyn-lurikah.github.io/MS1-The-Love-Letter/) for a live demo version
 
 ![Site screen display](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/assets/images/The%20Love%20Letter%20-%20Screen%20displays.png)
 
@@ -48,6 +48,7 @@ As site branding is bright and busy, The text had to be simple and clean:
 **Bowlby One SC**- For the callout
 
 
+
 ## Features
 
 A fixed top navbar ensures customers can naviage to all sections regardless of which one they are currently in. The callout is linked to the print section to go straight to the products advertised. A one page site with various sections reduces loading times and allows for a speedier naviagation, which in turn gives the customer a better site experience. 
@@ -59,6 +60,7 @@ A fixed top navbar ensures customers can naviage to all sections regardless of w
 - Login - To allow returning customers to purchase through their own account with saved information to streamline the process and cut down on time 
 
 
+
 ## Technologies Used
 
 - **HTML** - To write up base website
@@ -67,15 +69,17 @@ A fixed top navbar ensures customers can naviage to all sections regardless of w
 - **[Figma](https://www.figma.com/files/recent)** - To create wireframe
 
 
+
 ## Testing
 
 All links within the site function correctly and take you to the appropiate section. The submit button takes you to the top of the page as there is no 'completed' event. Social media links open to the home page of each social site. 
 
-The site was tested across multiple screens sizes both personally and via inspect. Personally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3" Windows laptops. All screen sizes worked as desired bar the 17.5" windows laptop, further explained in **bugs**
+The site was tested across multiple screens sizes both personally and via inspect. Personally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3" Windows laptops. All screen sizes worked as desired.
 
 In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes. In all cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subject to change between screen sizes and does so at the stated points. The navagtion bar collapses at moblie veiw to accomodate the size change. 
 
 The in moblie view footer will text appear one beneath the other to fit the available space while remaining readable.
+
 
 
 ## Bugs
@@ -90,22 +94,23 @@ A faint white border appears sporadically around the cards both in the physical 
 [HTML Validator](https://validator.w3.org/) - To check the markup validity of HTML web documents.
 [Gtmetrix](https://gtmetrix.com/) - To test site speed 
 
-
-**Screen display**
-
-Despite addressing with a media query, the callout image is cut off at the top on 17.5" screens PC screens with displaying as intended on an iMac viewed via [Technisi.com](https://techsini.com/multi-mockup/index.php), or is cut off at the top on an iMac viewed via [Technisi.com](https://techsini.com/multi-mockup/index.php) while displaying as intended on a 17.5" PC screen. This is the case on Chrome and Internet explorer. 
-
-
 **Site loading**
 
 Although optimised as far as possible, the callout image still remains a large file and slows the loading of the site. 
 
+**Submit**
+
+THe submit button is linked to 'home', which when clicked is to take you to the top of the page. However it occationally, across all screen sizes fails to do so until the page is refreshed. Another issue is it sometimes stops at the print section instead of the top, also rectified when the page is refreshed. 
+
+
 
 ## Deployment
 
-The Love Letter is hosted on GitHub pages, deployed from the master branch. The deployed site will update automatically upon new commits to the master branch. For correct deployment on GitHub pages, the landing page must be named index.html.
+The Love Letter is hosted on GitHub pages, deployed from the master branch. The deployed site will update automatically upon new commits to the master branch.
 
 To run locally, clone this repository directly into your chosen editor by pasting the link into your terminal. To remove from this GitHub repository, type ```git remote rm origin``` into the terminal.
+
+
 
 ## Credits
 
