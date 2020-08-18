@@ -5,6 +5,12 @@ The love letter is a prints company selling both pre-made and custom wall prints
 
 ## Demo
 
+Click [here](https://darlyn-lurikah.github.io/MS1--User-Centric-Frontend-Dev--The-Love-Letter/) for a live demo version
+
+![Site screen display](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/assets/images/The%20Love%20Letter%20-%20Screen%20displays.png)
+
+
+
 
 ## UX
 
@@ -30,7 +36,7 @@ Fixed top navigation bar to get to desired sections of the site easily. Informat
 
 ### Skeleton
 Wireframes created using figma:
-- [**The Love Letter wireframe**](https://getbootstrap.com/)
+- [**The Love Letter wireframe**](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/mockups/The%20Love%20Letter%20wireframe.pdf)
  
 
 ### Surface 
