@@ -1,6 +1,6 @@
 # MS1 - The Love Letter
 
-The love letter is a prints company selling both pre-made and custom wall prints. The goal of this website is to display the product for sale in a clear and easy to navigate manner to ensure customers quickly find what they are looking for, as well as establish the brand's image with bright and fun graphics and colours.  
+The love letter is a prints company selling both pre-made and custom wall prints. The goal of this website is to display the products for sale in a clear and easy to navigate manner to ensure, customers quickly find what they are looking for, as well as establish the brand's image with bright and fun graphics and colours.  
 
 
 ## Demo
@@ -8,7 +8,6 @@ The love letter is a prints company selling both pre-made and custom wall prints
 Click [here](https://darlyn-lurikah.github.io/MS1--User-Centric-Frontend-Dev--The-Love-Letter/) for a live demo version
 
 ![Site screen display](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/assets/images/The%20Love%20Letter%20-%20Screen%20displays.png)
-
 
 
 
@@ -26,21 +25,20 @@ When conducting research into potential customers, the points that came up most 
 - As a user, I need the company to have social media to keep up with an new products or services. **Addressed in footer** 
 
 ### Strategy
-To sell prints and a custom prints service using a user friendly one page design, with a clear layout that also stays true the the company branding. 
+To sell prints and custom prints service using a user friendly 'one page' design, with a clear layout that also stays true to the company branding. 
 
 ### Scope 
-Providing customers with a a breif company background, then all products and services set out and well labeled so they can browse and find what they are looking for.
+Providing customers with a breif company background, then all products and services set out and well labeled so they can browse and find what they are looking for.
 
 ### Structure 
 Fixed top navigation bar to get to desired sections of the site easily. Information given is short and easy to read. The function of each section of the site is labelled and  apparent to customer. 
 
 ### Skeleton
 Wireframes created using figma:
-- [**The Love Letter wireframe**](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/mockups/The%20Love%20Letter%20wireframe.pdf)
- 
+- [**The Love Letter wireframe**](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/mockups/The%20Love%20Letter%20wireframe.pdf) 
 
 ### Surface 
-While the fruity background caught your eye, the print section had a plain background to ensure they stood out and were easy to read so branding did not overtake usability. 
+As the fruity background is eyecatching, the print section had a plain background to ensure they stood out and were easy to read so branding did not overtake usability. 
 As site branding is bright and busy, The text had to be simple and clean: 
 
 **Roboto**- For general information throughout
@@ -73,22 +71,35 @@ A fixed top navbar ensures customers can naviage to all sections regardless of w
 
 All links within the site function correctly and take you to the appropiate section. The submit button takes you to the top of the page as there is no 'completed' event. Social media links open to the home page of each social site. 
 
-The site was tested across multiple screens sizes both personally and via inspect. Peronally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3inch Windows laptops and all screen sizes worked as desired
+The site was tested across multiple screens sizes both personally and via inspect. Personally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3" Windows laptops. All screen sizes worked as desired bar the 17.5" windows laptop, further explained in **bugs**
 
-In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes. In both cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subject to change between screen sizes and does so at the stated points. The navagtion bar also collapses at moblie and tablet veiw to accomodate the size change. 
+In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes. In all cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subject to change between screen sizes and does so at the stated points. The navagtion bar collapses at moblie veiw to accomodate the size change. 
 
-The in moblie view footer will text appear one beneath the other to fit the space available while remaining readable.
+The in moblie view footer will text appear one beneath the other to fit the available space while remaining readable.
 
 
 ## Bugs
 
 **Cards**
+
 A faint white border appears sporadically around the cards both in the physical tests and via inspection, although all borders have been removed this problem persists. 
 
 **Functionality test sites**
+
 [CSS Validator](https://jigsaw.w3.org/css-validator/) - To check the markup validity of CSS web documents.
 [HTML Validator](https://validator.w3.org/) - To check the markup validity of HTML web documents.
 [Gtmetrix](https://gtmetrix.com/) - To test site speed 
+
+
+**Screen display**
+
+Despite addressing with a media query, the callout image is cut off at the top on 17.5" screens PC screens with displaying as intended on an iMac viewed via [Technisi.com](https://techsini.com/multi-mockup/index.php), or is cut off at the top on an iMac viewed via [Technisi.com](https://techsini.com/multi-mockup/index.php) while displaying as intended on a 17.5" PC screen. This is the case on Chrome and Internet explorer. 
+
+
+**Site loading**
+
+Although optimised as far as possible, the callout image still remains a large file and slows the loading of the site. 
+
 
 ## Deployment
 
@@ -99,9 +110,11 @@ To run locally, clone this repository directly into your chosen editor by pastin
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- The text for the callout section hyperlink to remove the on click underline was copied from the [Stack Overflow](https://stackoverflow.com/questions/27989672/why-is-link-underline-appearing-after-clicking-the-link)
 
 ### Media
+
 **Callout**
 
 Images bought from [Almay.com](https://www.alamy.com/) with full license to be used in project.
