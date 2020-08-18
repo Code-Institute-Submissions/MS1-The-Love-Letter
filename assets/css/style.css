@@ -203,7 +203,6 @@ body {
     .callout-image {
         display: block;
         position: relative;
-        vertical-align: top;
         height: 700px;
         width: 120rem;   
     }
