@@ -98,6 +98,10 @@ A faint white border appears sporadically around the cards both in the physical 
 
 Although optimised as far as possible, the callout image still remains a large file and slows the loading of the site. 
 
+**Submit**
+
+THe submit button is linked to 'home', which when clicked is to take you to the top of the page. However it occationally, across all screen sizes fails to do so until the page is refreshed. Another issue is it sometimes stops at the print section instead of the top, also rectified when the page is refreshed. 
+
 
 
 ## Deployment
