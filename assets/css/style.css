@@ -266,7 +266,7 @@ body {
 }
 
 
-/*--------------------------------------------Extra large screens (Macbook)*/
+/*--------------------------------------------Large screens (Macbook)*/
 @media (min-width: 1200px) {
     .callout-image {
         background: url("../images/Callout\ big\ optimised.jpg") no-repeat bottom right;
@@ -316,7 +316,7 @@ body {
 
 
 /*--------------------------------------------Extra large screens (iMac)*/
-@media (min-width: 1370px) {
+@media (max-width: 1370px) {
     .callout-image {
         background: url("../images/Callout\ big\ optimised.jpg") no-repeat bottom right;
         -moz-background-size: cover;
