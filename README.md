@@ -7,7 +7,7 @@ The love letter is a prints company selling both pre-made and custom wall prints
 
 Click [here](https://darlyn-lurikah.github.io/MS1-The-Love-Letter/) for a live demo version
 
-![Site screen display](https://github.com/Darlyn-Lurikah/MS1--User-Centric-Frontend-Dev--The-Love-Letter/blob/master/assets/images/The%20Love%20Letter%20-%20Screen%20displays.png)
+![Site screen display](https://github.com/Darlyn-Lurikah/MS1-The-Love-Letter/blob/master/assets/images/The%20Love%20Letter%20-%20Screen%20displays.png)
 
 
 
