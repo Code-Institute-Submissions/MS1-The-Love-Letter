@@ -102,7 +102,7 @@ Although optimised as far as possible, the callout image still remains a large f
 
 ## Deployment
 
-The Love Letter is hosted on GitHub pages, deployed from the master branch. The deployed site will update automatically upon new commits to the master branch. For correct deployment on GitHub pages, the landing page must be named index.html.
+The Love Letter is hosted on GitHub pages, deployed from the master branch. The deployed site will update automatically upon new commits to the master branch.
 
 To run locally, clone this repository directly into your chosen editor by pasting the link into your terminal. To remove from this GitHub repository, type ```git remote rm origin``` into the terminal.
 
