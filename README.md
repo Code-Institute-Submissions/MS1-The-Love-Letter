@@ -1,8 +1,11 @@
 # MS1 - The Love Letter
 
 The love letter is a prints company selling both pre-made and custom wall prints. The goal of this website is to display the product for sale in a clear and easy to navigate manner to ensure customers quickly find what they are looking for, as well as establish the brand's image with bright and fun graphics and colours.  
- 
- 
+
+
+## Demo
+
+
 ## UX
 
 The Love letter is for anyone looking for prints with fun, odd or ispirational (maybe all three) quotes. The layout needed to be simple and clear, given the quirky branding, to lead customers easily to the prints for sale and custom print service provided with ease. 
@@ -66,8 +69,7 @@ All links within the site function correctly and take you to the appropiate sect
 
 The site was tested across multiple screens sizes both personally and via inspect. Peronally, it was opened on an iPhoneX, iPad mini, iPad Pro, iMac, Macbook Pro, as well as a 15.3inch and 17.3inch Windows laptops and all screen sizes worked as desired
 
-In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes.
-In both cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subjec tot change between screen sizes and does so at the stated points. The navagtion bar also collapses at moblie and tablet veiw to accomodate the size change. 
+In Chrome, Internet Explorer and Safari via inspect, the site displayed and fucnctioned as intended at all screen sizes. In both cases, the callout images changes betwwen phone, tablet and laptop/desktop were displayed correctly. The logo text size is also subject to change between screen sizes and does so at the stated points. The navagtion bar also collapses at moblie and tablet veiw to accomodate the size change. 
 
 The in moblie view footer will text appear one beneath the other to fit the space available while remaining readable.
 
