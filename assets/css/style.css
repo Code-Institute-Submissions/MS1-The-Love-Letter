@@ -363,6 +363,56 @@ body {
 }
 
 
+/*--------------------------------------------Extra large screens (Windows PC)*/
+@media (min-width: 1920px) {
+    .callout-image {
+        background: url("../images/Callout\ big\ optimised.jpg") no-repeat bottom right;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .callout-text-white {
+        color: #fff;
+        display: inline-block;
+        justify-content: center;
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 5rem;
+        text-shadow: 10px 10px #000;
+        text-transform: uppercase;
+        height: 20rem;
+        padding-top: 13rem;
+    }
+
+    
+    .prints-callout {
+        height: 55rem;
+        background-color: #cab9db;
+        border: #896cae solid 1rem;
+    }
+
+    .callout-price {
+        font-size: 25px;
+    }
+
+    .callout-image-box{
+        height: 55rem;
+        width: 100%;
+    }
+
+    .callout-container {
+        height: 55rem;
+    }
+
+    .callout-row{
+        height: 55rem;
+    } 
+}
+
 
 /*--------------------------------------------About Us styling*/
 
